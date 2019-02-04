@@ -1,0 +1,151 @@
+<!doctype html>
+<html>
+
+<head>
+
+  <title>
+    
+      Research | Jason M. Yu
+    
+  </title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="stylesheet" href="/assets/css/syntax.css">
+  <!-- Use Atom -->
+  <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Jason M. Yu" />
+  <!-- Use RSS-2.0 -->
+  <!--<link href="/rss-feed.xml" type="application/rss+xml" rel="alternate" title="Jason M. Yu | "/>
+  //-->
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Code+Pro">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quattrocento+Sans">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <script type="text/javascript" async
+    src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+  </script>
+
+  <!-- Google Analytics -->
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-112060364-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+
+  <!-- Use Jekyll SEO plugin -->
+  <!-- Begin Jekyll SEO tag v2.5.0 -->
+<title>Research | Jason M. Yu</title>
+<meta name="generator" content="Jekyll v3.6.2" />
+<meta property="og:title" content="Research" />
+<meta property="og:locale" content="en_US" />
+<link rel="canonical" href="http://localhost:4000/menu/research.html" />
+<meta property="og:url" content="http://localhost:4000/menu/research.html" />
+<meta property="og:site_name" content="Jason M. Yu" />
+<script type="application/ld+json">
+{"@type":"WebPage","url":"http://localhost:4000/menu/research.html","headline":"Research","@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+</head>
+
+
+<body>
+
+  <div class="container">
+    <header class="masthead">
+  <h3 class="masthead-title">
+    <a href="/">Jason M. Yu</a>
+    <small class="masthead-subtitle"></small>
+    <div class="menu">
+  <nav class="menu-content">
+    
+      <a href="/menu/about.html">About</a>
+    
+      <a href="/menu/research.html">Research</a>
+    
+      <a href="/menu/CV.html">CV</a>
+    
+      <a href="/menu/media.html">Media</a>
+    
+      <a href="/menu/photos.html">Photos</a>
+    
+      <a href="/menu/contact.html">Contact</a>
+    
+  </nav>
+  <nav class="social-icons">
+    
+  
+  
+    <a href="https://www.github.com/Jasonmyu" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+  
+
+  </nav>
+</div>
+
+  </h3>
+</header>
+
+
+    <div class="post-container">
+      <h1>
+  Research
+</h1>
+
+<p><strong>Development of Ab-initio methods towards the description of Excited States for Periodic Systems</strong></p>
+
+<p>Quantum chemistry methods capable of describing the electronic structure of solids have long been desired in the fields of condensed matter physics and materials science. Knowledge of the excited state spectrum of technologically important materials, like those with light-harvesting or superconducting characteristics, is particularly crucial to the solution of difficult scientific and societal problems.</p>
+
+<p>Several methods are currently used to calculate properties of solids, such as Time-Dependent Density Functional Theory and the GW approximation. These techniques have seen a degree of success in computing electronic properties, but also possess a number of drawbacks. For example, both techniques tend to give inaccurate band gaps and possess non-straightforward avenues towards obtaining higher accuracy.</p>
+
+<p>Part of my research involves developing methods derived from Coupled-Cluster theory to circumvent such issues and accurately predict excited-state properties of solids:</p>
+
+<p><br />
+<em>Equation-of-motion Coupled Cluster Theory for Solids</em></p>
+
+<p><img src="/assets/img/eom.png" alt="eom" title="eom" /></p>
+
+<p>The Equation-of-motion Coupled Cluster technique has been used to obtain high-accuracy excited state properties for molecules in the past. The extension of this formalism to solids is a logical next step. This was first implemented by McClain et al. in the quantum chemistry software PySCF. My work on this project involves leading a subgroup to extend this foundational code to Unrestricted systems using spatial orbitals, as well as General systems with spin orbitals. We expect to publish the results of this work, including applications to various solids , in the near future.</p>
+
+<p><br />
+<em>Coupled-Cluster Green’s Functions for Solids</em></p>
+
+<p><img src="/assets/img/dmd.png" alt="dmd" title="luc" /></p>
+
+<p>While the Equation-of-motion technique for solids has given promising results for description of quasiparticle energies, it has difficulty converging satellite states with larger many-body character. Because these states are important to understand the electronic properties of  materials, a method to acquire these satellite states is desired.</p>
+
+<p>The frequency-dependent Single-particle Green’s function, which can be evaluated directly in the Coupled Cluster Approximation, offers a potential solution to this issue. Its poles contain the quasiparticle energies of the many-body system, and can be found explicitly through its dependence on the energy. In my work on this project, I implemented the Coupled Cluster Green’s Function method for Periodic systems in PySCF, and am active in its improvement.</p>
+
+<p><br /><br />
+<strong>Genetic Algorithms for Fluorophore Determination</strong></p>
+
+<p><img src="/assets/img/luc.png" alt="luc" title="luc" /></p>
+
+<p>One of my past projects involved the development of a genetic algorithm to determine chemilluminescent probes for disease detection. Applying the algorithm to explore the chemical space of molecules derived from Luciferin, a chemical species responsible for the light given off by fireflies, I identified several candidates with strong fluorescent properties for further computational and experimental study. We hope to generalize this initial implementation to a variety of molecular base structures and apply it to additional chemical search projects in the future.</p>
+
+
+    </div>
+
+    <footer class="footer">
+  
+  
+  
+    <a href="https://www.github.com/Jasonmyu" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+  
+
+  <div class="post-date"><a href="/menu/about.html">Jason M. Yu</a></div>
+</footer>
+
+
+  </div>
+
+</body>
+</html>
