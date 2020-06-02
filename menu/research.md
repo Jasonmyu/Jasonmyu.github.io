@@ -44,7 +44,7 @@ https://doi.org/10.1021/jacs.9b05816
 <br/>
 *Prediction of Bis(pentaisopropylcyclopentadienyl) Actinide Species*
 
-![toc](/assets/img/ln.png "toc")
+![toc](/assets/img/toc.png "toc")
 
 Through our previous work on Dy(CpiPr5)2 and Tb(CpiPr5)2, we also suspected that
 the analogous divalent actinide species would also be synthetically isolable. If
@@ -57,14 +57,12 @@ computational evidence for the accessibility of such compounds. Soon after our
 results were made available online, bis(cyclopentadienyl) uranium(II) was
 synthesized by Lafield et al., validating our own theoretical predictions.
 
-
+<br/><br/>
 **Development of Ab-initio methods towards the description of Excited States for Periodic Systems**
 
 Quantum chemistry methods capable of describing the electronic structure of solids have long been desired in the fields of condensed matter physics and materials science. Knowledge of the excited state spectrum of technologically important materials, like those with light-harvesting or superconducting characteristics, is particularly crucial to the solution of difficult scientific and societal problems. 
 
-Several methods are currently used to calculate properties of solids, such as Time-Dependent Density Functional Theory and the GW approximation. These techniques have seen a degree of success in computing electronic properties, but also possess a number of drawbacks. For example, both techniques tend to give inaccurate band gaps and possess non-straightforward avenues towards obtaining higher accuracy. 
-
-Part of my research involves developing methods derived from Coupled-Cluster theory to circumvent such issues and accurately predict excited-state properties of solids:
+Part of my research involves developing methods derived from Coupled-Cluster theory to accurately predict excited-state properties of solids:
 
 <br/>
 *Equation-of-motion Coupled Cluster Theory for Solids*
