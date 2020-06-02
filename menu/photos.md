@@ -3,6 +3,16 @@ layout: page
 title: Travel
 ---
 
+**Kyoto - 2020**
+
+Mt. Fuji from the train
+![fuji](/assets/img/fuji.jpg "fuji")
+
+Fushimi Inari-taisha
+![inari](/assets/img/inari.jpg "inari")
+
+<br><br>
+
 **Shanghai - 2019**
 
 A bowl of noodles in Shanghai

@@ -3,7 +3,13 @@ layout: page
 title: About Me
 ---
 
-Hello! My name is Jason Yu, and I am a Ph.D. student at the University of California, Irvine. I am also an NSF Graduate Research Fellow, part of a fellowship program sponsored by the National Science Foundation (More info can be found here: https://www.nsfgrfp.org/). My research interests involve the development of ab-initio quantum chemistry methods, particularly those which involve Coupled Cluster Theory (CC) and Periodic Boundary Conditions (PBCs). To learn more about my research, including ongoing work, you can visit the "Research" section in the sidebar above. 
+Hello! My name is Jason Yu, and I am a Ph.D. student at the University of
+California, Irvine. I am also an NSF Graduate Research Fellow, part of a
+fellowship program sponsored by the National Science Foundation (More info can
+be found here: https://www.nsfgrfp.org/). My research interests involve the
+development and application of quantum chemistry methods, particularly those which involve
+Density Functional Theory (DFT) and Coupled Cluster (CC). 
+To learn more about my research, including ongoing work, you can visit the "Research" section in the sidebar above. 
 
 I have a Masters degree from the California Institute of Technology in Quantum Chemistry. There, I worked on developing excited-state methods for periodic systems. I also expanded my skill-set through taking classes in machine learning and data science. I take special interest in how these quantitative methods can be used to solve scientific problems.
 
