@@ -3,7 +3,7 @@ layout: page
 title: Research
 ---
 
-**Theoretical Characterization of Rare-Earth and Actinide Compounds**
+**Characterization of Rare-Earth and Actinide Compounds**
 
 ![comp](/assets/img/comp.png "comp")
 
@@ -27,6 +27,56 @@ under development.
 Some of my recent work in this area is briefly mentioned below:
 
 <br/>
+*Record Hyperfine Clock Transitions in Ln-based Molecular Qubits*
+
+![hct](/assets/img/HCT.png "hct")
+
+Due to their extensive magnetic tunability and potential for
+self-assembly-based scale-up, lanthanide single molecule magnets 
+represent a promising next-generation qubit platform for quantum
+computing. In collaboration with the groups of Professor Evans at UCI and Professor Hill at FSU, 
+we recently demonstrated the viability of this technology by
+highlighting a novel series of Ln complexes: [La(OAr\*3)]-,
+[Lu(OAr\*3)]-, and [Lu(NR2)3]- (OAr\* = 2,6-Ad2-4-t-Bu-C6H2O, Ad = adamantyl, t-Bu= tert-butyl, R = SiMe3 with Me =
+methyl). We demonstrated through EPR and KS-DFT studies that variation of the
+s-orbital mixing present in the 6s/d Singly Occupied Molecular Orbital
+(SOMO) of these complexes could be used to tune their magnetic structure
+and subsequently engineer clock transitions, a type of hyperfine transition that is particularly resilient against
+quantum decoherence. We ultimately showed that [Lu(OAr\*)3]- exhibited a massive clock transition of approximately 9 GHz 
+resulting in enhanced magnetic relaxation times. The above figure
+depicts an illustration of a hyperfine clock transition (left) and 
+the singly occupied molecular orbital density responsible for it
+in [Lu(OAr\*)3]- (right). A publication is
+currently under review, and a preprint is available here:
+https://doi.org/10.26434/chemrxiv.14399333.v1 
+
+<br/>
+*Predictions of Hyperfine Clock Transitions from Local Exact
+Two-Component Theory*
+
+![hfc](/assets/img/HFC.png "hfc")
+
+While KS-DFT successfully predicted the trends in
+hyperfine coupling for [La(OAr\*3)]-,
+[Lu(OAr\*3)]-, and [Lu(NR2)3]-, the values themselves possessed errors of roughly one order of magnitude
+when compared with experimental results. This can mostly be attributed to the non-relativistic operator
+used to calculate the HFC matrix, giving rise to a large picture-change
+error. While such a method proved useful when paired with
+experiment, improvements which can achieve quantitative accuracy are desired if
+in silico discovery of optimal SMMs is to be realized.
+ 
+In collaboration with Yannick Franzke from the University of Marburg, we
+implemented the hyperfine coupling expression in the quasirelativistic
+exact two-component framework (X2C), which circumvents the errors described
+above. As illustrated in the above figure, our X2C, "SO"-based hyperfine
+coupling constants greatly reduce the error over the previous method
+(denoted "SR-NR" here), and brings them in line with experimental
+results. As such, we have realized an accurate tool capable of in-silico
+exploration of new single molecule magnet candidates. A publication is
+currently under review, and a preprint is available here:
+https://doi.org/10.33774/chemrxiv-2021-wnz1v
+
+<br/>
 *Characterization of Bis(pentaisopropylcyclopentadienyl) Terbium(II) and Dysprosium(II)*
 
 ![ln](/assets/img/ln.png "ln")
@@ -39,7 +89,6 @@ configurations, with significant 6s/5dz2 hybrid character in the HOMO. These
 compounds are now being further investigated for their suitability as single
 molecule magnets (SMMs). See the published article here:
 https://doi.org/10.1021/jacs.9b05816
-
  
 <br/>
 *Prediction of Bis(pentaisopropylcyclopentadienyl) Actinide Species*
