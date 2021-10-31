@@ -3,6 +3,37 @@ layout: page
 title: Research
 ---
 
+**Advancing DNA Encoded Library (DEL) Analysis Methods for Drug
+Discovery**
+
+![DEL](/assets/img/DEL.png "DEL")
+
+DNA-encoded libraries (DELs), large collections of
+small-molecules which are linked with unique DNA identifiers, have
+gained significant popularity in drug discovery efforts as an alternative to
+traditional high-throughput screening (HTS) methods. A notable
+advantage of DEL technology is that a therapeutic target can be screened
+against the entire library in a single affinity selection protocol, with 
+potential hits identified through next-generation sequencing of DNA
+identifiers. However, the data obtained from these experiments is
+inherently noisy, varying widely based on library quality and target
+conditions. Therefore, finding true hits can be a challenging process. 
+
+During my Co-op with the Computational Chemistry group at Biogen, which
+took place from January to June of 2021, I developed a DEL data analysis platform that
+utilizes machine learning models to systematically identify diverse chemical series and
+derive structure activity relationship (SAR) insights from DEL data.
+These tools collectively provide the basis for reliable hit-calling,
+accounting for false negative/positive outcomes, which is a
+shortcoming of conventional visual mining techniques. 
+Furthermore, the DEL analysis pipeline takes advantage of
+existing open-source software libraries and can thus be implemented easily
+into existing cheminformatics platforms. The platform can be
+applied uniformly to assays with varying conditions, targets, and
+libraries. I presented this work at the ACS Fall 2021 Conference on
+August 24th, 2021.
+
+
 **Characterization of Rare-Earth and Actinide Compounds**
 
 ![comp](/assets/img/comp.png "comp")
