@@ -33,7 +33,7 @@ applied uniformly to assays with varying conditions, targets, and
 libraries. I presented this work at the ACS Fall 2021 Conference on
 August 24th, 2021.
 
-
+<br/><br/>
 **Characterization of Rare-Earth and Actinide Compounds**
 
 ![comp](/assets/img/comp.png "comp")
