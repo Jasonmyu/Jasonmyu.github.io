@@ -5,15 +5,12 @@ title: About Me
 
 ![headshot](/assets/img/headshot.jpg "headshot"){:height="50%" width="50%"}
 
-Hello! My name is Jason Yu, and I am a current Ph.D. student studying
-computational chemistry at the University of
-California, Irvine and a former Co-op of the Medicinal Chemistry group at
-Biogen. I am also an NSF Graduate Research Fellow, part of a
-fellowship program sponsored by the National Science Foundation (More info can
-be found here: https://www.nsfgrfp.org/). My research interests involve the
+Hello! My name is Jason Yu, and I am a computational chemist at Amgen. 
+I received my Ph.D. from the University of California, Irvine
+where I was an NSF GRFP fellow. My research interests involve the
 development and application of computational chemistry methods, particularly those which involve
 Density Functional Theory (DFT) and Artificial Intelligence (AI), to
-study the properties of small-molecules and chemical systems. The
+study the properties of small-molecules and biochemical systems. The
 results of my research projects have found application in the fields
 of quantum computing and drug discovery. 
 To learn more about my research, including ongoing work, 
@@ -27,7 +24,7 @@ I take special interest in how these quantitative methods can be used to solve s
 I hold my B.S. in Chemistry from UCI, where I graduated Summa Cum Laude.
 During my undergraduate study, I was recognized for a number of academic
 achievements, such as the Chancellor's Award for Excellence in
-Undergraduate Research.  A list of some accolades can be found in the "Media" section.
+Undergraduate Research. A list of some accolades can be found in the "Media" section.
 
 Aside from scientific research, I also aspire to become a worthy mentor
 and educator to help improve scientific education in the United States. 
